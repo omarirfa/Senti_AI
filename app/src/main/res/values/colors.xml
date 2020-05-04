@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background_template">#775ada</color>
+    <color name="floatingbutton_template">#002651</color>
+    <color name="card_background">#fff4e3</color>
+</resources>
