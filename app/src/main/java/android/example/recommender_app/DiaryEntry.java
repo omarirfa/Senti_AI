@@ -32,6 +32,9 @@ public class DiaryEntry extends AppCompatActivity {
     public static final String JOURNAL_CODE="android.example.recommender_app.journal";
     public static final String SENTIMENT_CODE="android.example.recommender_app.sentiment";
     public static final String DATE_CODE="android.example.recommender_app.date_posted";
+    public static final String FLASK_URL="http://35.183.125.193";
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,8 +75,10 @@ public class DiaryEntry extends AppCompatActivity {
         return true;
     }
 
+    //http://10.0.2.2:5000
+
     private void Retrofit_setup(){
-        Retrofit retrofit=new Retrofit.Builder().baseUrl("http://10.0.2.2:5000").addConverterFactory(GsonConverterFactory.create()).build();
+        Retrofit retrofit=new Retrofit.Builder().baseUrl(FLASK_URL).addConverterFactory(GsonConverterFactory.create()).build();
 
         JsonParser jsonParser=retrofit.create(JsonParser.class);
 

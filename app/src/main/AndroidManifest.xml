@@ -12,9 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JournalOverview" android:parentActivityName=".DiaryStore"
+        <activity android:name=".SignupPage"
             android:theme="@style/AppTheme"
-            />
+            ></activity>
+        <activity
+            android:name=".JournalOverview"
+            android:parentActivityName=".DiaryStore"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".DiaryEntry"
             android:parentActivityName=".DiaryStore" />
