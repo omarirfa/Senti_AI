@@ -4,7 +4,7 @@ Senti AI is an android application that functions as your day to day personal di
 Functionalities
 1. Login and sign up.
 2. Room sqllite database to store diary content.
-3. Machine learning model that analyzes sentiment of the text.
-4. Flask server that provides RESTFUl API services.
+3. Amazon ec2 spot instance that hosts a Flask server which provides RESTFUl API services.
+4. Machine learning model that analyzes sentiment of the request text.
 5. Proper usage of RecyclerView and android architecture components.
 6. Follows Google Material Design Guidelines.
