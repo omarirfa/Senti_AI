@@ -26,6 +26,7 @@ public class SignupPage extends AppCompatActivity {
         setContentView(R.layout.activity_signup_page);
         ActionBar actionBar=getSupportActionBar();
         actionBar.setTitle("Signup");
+        actionBar.setHomeButtonEnabled(true);
         emailText=(EditText)findViewById(R.id.editText_email);
         passwordText=(EditText)findViewById(R.id.editText_password);
         signupButton=(FloatingActionButton)findViewById(R.id.floatingActionButton_signup);
