@@ -19,8 +19,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:ems="10"
+        android:ems="20"
         android:hint="Title"
+        android:maxLength="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -35,6 +36,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="Journal content"
+        android:maxLength="100"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="@+id/editText4"
         app:layout_constraintHorizontal_bias="0.0"
@@ -51,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="@+id/editText5"
         app:layout_constraintStart_toStartOf="@+id/editText5"
         app:layout_constraintTop_toBottomOf="@+id/editText5"
-        app:srcCompat="@android:drawable/ic_media_play"
+        app:srcCompat="@drawable/ic_arrow_right_alt_white_18dp"
         app:backgroundTint="@color/floatingbutton_template"
         />
 

@@ -39,6 +39,7 @@ public class SignupPage extends AppCompatActivity {
 
                     credentials=new Credentials(emailText.getText().toString().toLowerCase().trim(),passwordText.getText().toString().trim());
                     loginViewModel.insertCredential(credentials);
+                    Toast.makeText(SignupPage.this,"Sign up is successful",Toast.LENGTH_SHORT).show();
                     Intent i=new Intent(SignupPage.this,MainActivity.class);
                     startActivity(i);
 

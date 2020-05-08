@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private FloatingActionButton next_button;
     private LoginViewModel loginViewModel;
     private Button signUp;
+    private boolean checker=false;
 
 
     @Override
@@ -57,11 +58,24 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onChanged(List<Credentials> credentials) {
 
+                        if(credentials.size()==0){
+                            Toast.makeText(MainActivity.this,"Please signup",Toast.LENGTH_SHORT).show();
+                        }
+
+
+
                         for(int i=0;i<credentials.size();i++) {
                             if (mEmailAddress.getText().toString().trim().equalsIgnoreCase(credentials.get(i).getEmailAddress()) && mPassWord.getText().toString().trim().equals(credentials.get(i).getPassword())) {
+                                checker=true;
+                                Toast.makeText(MainActivity.this,"Login success",Toast.LENGTH_SHORT).show();
                                 Intent move = new Intent(MainActivity.this, DiaryStore.class);
                                 startActivity(move);
+
                             }
+                        }
+
+                        if(!checker && credentials.size()>0){
+                            Toast.makeText(MainActivity.this,"Verify credentials",Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
