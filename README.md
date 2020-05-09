@@ -10,4 +10,6 @@ Functionalities
 6. Proper usage of RecyclerView and android architecture components.
 7. Follows Google Material Design Guidelines.
 
+FlowChart
+
 ![FlowChart](https://github.com/tamizh3110/Senti_AI/blob/master/flowchartaws.png)
