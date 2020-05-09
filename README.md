@@ -1,4 +1,5 @@
 # Senti_AI
+**About the app**
 Senti AI is an android application that functions as your day to day personal diary. The android application is the client that sends the diary content posted by the user to the Amazon EC2 cloud which hosts flask file and machine learning models.The flask file takes the input request sends it to the machine learning models for prediction and it sends the response as happy or sad back to the client. The app was created to boost mental health of the users. It gives them a good perspective of their mental emotion everyday. This way users can understand them and be able to adjust their lifestyle. Example: Form good habits, Practice self-care, etc.
 
 **Functionalities**
