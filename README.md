@@ -9,3 +9,5 @@ Functionalities
 5. Machine learning model that analyzes sentiment of the request text.
 6. Proper usage of RecyclerView and android architecture components.
 7. Follows Google Material Design Guidelines.
+
+![https://github.com/tamizh3110/Senti_AI/blob/master/flowchartaws.png]
