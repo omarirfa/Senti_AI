@@ -12,6 +12,13 @@ Senti AI is an android application that functions as your day to day personal di
 * Proper usage of RecyclerView and android architecture components.
 * Follows Google Material Design Guidelines.
 
-**FlowChart**
+**Flowchart**
 
 ![FlowChart](https://github.com/tamizh3110/Senti_AI/blob/master/flowchartaws.png)
+
+**Walkthrough**
+
+<video width="320" height="200" controls preload> 
+    <source src="Walkthrough.webm"></source> 
+</video>
+
