@@ -16,5 +16,5 @@ Senti AI is an android application that functions as your day to day personal di
 
 ![FlowChart](https://github.com/tamizh3110/Senti_AI/blob/master/flowchartaws.png)
 
-**Walkthrough**
-<img src="https://github.com/tamizh3110/Senti_AI/blob/master/Walkthrough.gif" width="200" height="200">
+<p><b>Walkthrough</b></p>
+<img src="https://github.com/tamizh3110/Senti_AI/blob/master/Walkthrough.gif" width="200" height="800">
