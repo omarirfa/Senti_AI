@@ -18,7 +18,7 @@
         android:layout_margin="16dp"
         android:clickable="true"
         app:backgroundTint="@color/floatingbutton_template"
-        app:srcCompat="@android:drawable/ic_media_play" />
+        app:srcCompat="@drawable/ic_add_white_18dp" />
 
     <androidx.recyclerview.widget.RecyclerView
     android:layout_width="match_parent"
