@@ -18,7 +18,7 @@ Senti AI is an android application that functions as your day to day personal di
 
 **Walkthrough**
 
-<video width="320" height="200" controls preload> 
-    <source src="Walkthrough.webm"></source> 
+<video width="50" height="50" controls preload> 
+    <source src="https://github.com/tamizh3110/Senti_AI/blob/master/Walkthrough.webm"></source> 
 </video>
 
