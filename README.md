@@ -29,7 +29,7 @@ The android app currently supports Oreo (Android 8.0+) and Pie (Android 9.0+) ve
 **Updates**
 
 * The Model needs to be fine-tuned for improved precision towards analyzing the sentiment of the text.
-* Graph and Charts for visualzing sentiment trends have to be developed.
+* Graph and Charts for visualizing sentiment trends have to be developed.
 * Backward compatibility of the app can be improved.
 * WorkManager class needs to be added to provide support for reminder.
 * Settings preference needs to be provided to the user, so that the user can decide what features to turn on and off.
