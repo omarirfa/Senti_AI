@@ -24,7 +24,7 @@ Senti AI is an android application that functions as your day to day personal di
 
 **Compatibility**
 
-The android app currently supports Oreo(Android 8.0+) and Pie(Android 9.0+) version.
+The android app currently supports Oreo (Android 8.0+) and Pie (Android 9.0+) version.
 
 **Updates**
 
