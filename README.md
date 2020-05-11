@@ -24,12 +24,12 @@ Senti AI is an android application that functions as your day to day personal di
 
 **Compatibility**
 
-The android app currently only supports Oreo and Pie version.
+The android app currently supports Oreo(Android 8.0+) and Pie(Android 9.0+) version.
 
 **Updates**
 
 * The Model needs to be fine-tuned for improved precision towards analyzing the sentiment of the text.
-* Graph and Charts for understanding sentiment trends has to be developed.
+* Graph and Charts for visualzing sentiment trends have to be developed.
 * Backward compatibility of the app can be improved.
 * WorkManager class needs to be added to provide support for reminder.
 * Settings preference needs to be provided to the user, so that the user can decide what features are to be turned on and off.
