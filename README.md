@@ -36,5 +36,5 @@ The android app currently supports Oreo (Android 8.0+) and Pie (Android 9.0+) ve
 
 **Note**
 
-The app will be used to delve deep into dependency injection using dagger 2 and performing unit and UI testing using Junit and Espresso respectively.
+The app will be used to delve deep into dependency injection using dagger 2 and performing unit and UI testing using JUnit and Espresso respectively.
 
