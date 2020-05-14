@@ -34,7 +34,4 @@ The android app currently supports Oreo (Android 8.0+) and Pie (Android 9.0+) ve
 * WorkManager class needs to be added to provide support for reminder.
 * Settings preference needs to be provided to the user, so that the user can decide what features to turn on and off.
 
-**Note**
-
-The app will be used to delve deep into dependency injection using dagger 2 and performing unit and UI testing using JUnit and Espresso respectively.
 
