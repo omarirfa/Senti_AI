@@ -1,4 +1,5 @@
 # Senti_AI
+###We have launched an android application with a similar concept which you can check on Google Play Store known as [Emoto].
 **About the app**
 
 Senti AI is an android application that functions as your day to day personal diary. The android application is the client that sends the diary content posted by the user to the Amazon EC2 cloud which hosts flask file and machine learning models. The flask file takes the input request sends it to the machine learning models for prediction and it sends the response as happy or sad back to the client. The app was created to boost mental health of the users. It gives them a good perspective of their mental emotion everyday. This way users can understand them and be able to adjust their lifestyle. Example: Form good habits, Practice self-care, etc.
@@ -35,3 +36,6 @@ The android app currently supports Oreo (Android 8.0+) and Pie (Android 9.0+) ve
 * Settings preference needs to be provided to the user, so that the user can decide what features to turn on and off.
 
 
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+ [Emoto]: <https://play.google.com/store/apps/details?id=emoto_setup.example.recommender_app&hl=en_CA>
